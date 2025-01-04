@@ -1,0 +1,23 @@
+/* ImageGallery.css */
+.image {
+    max-width: 70%;
+    height: auto;
+    border-radius: 5%;
+    border-style: double;
+    border-color: rgb(49, 8, 87);
+  }
+  .fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 600px) {
+    .image {
+      width: 50%;
+    }
+  }
