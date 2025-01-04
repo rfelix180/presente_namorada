@@ -110,7 +110,7 @@ function App() {
         <h1>Ricardo e Laís</h1>
       )}
 
-{!isPlaying && <h2 className="play-text" style={{ fontSize: '35px', marginTop: '350px'}}>Aperte o Play</h2>}
+{!isPlaying && <h2 className="play-text" style={{ fontSize: '35px', marginTop: '300px'}}>Aperte o Play</h2>}
       
         <div className={`player-container ${isPlayerVisible ? '' : 'hidden'}`}>
         <ReactPlayer
