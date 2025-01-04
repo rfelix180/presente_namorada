@@ -110,7 +110,7 @@ function App() {
         <h1>Ricardo e Laís</h1>
       )}
 
-        {!isPlaying && <span>Aperte o Play</span>}
+{!isPlaying && <h2 className="play-text" style={{ fontSize: '35px', marginTop: '350px'}}>Aperte o Play</h2>}
       
         <div className={`player-container ${isPlayerVisible ? '' : 'hidden'}`}>
         <ReactPlayer
@@ -118,8 +118,8 @@ function App() {
           url="/musica/vamos_fugir.mp3"
           playing={isPlaying} // Control playback state
           controls={true}
-          width="100px"
-          height="50px"
+          width="150px"
+          height="80px"
           onPlay={handlePlay}
         />
       </div>
