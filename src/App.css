@@ -1,8 +1,8 @@
 /* App.css */
 body {
-  font-family: "Pinyon Script";
+  font-family: "Pinyon Script", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
 .App {
